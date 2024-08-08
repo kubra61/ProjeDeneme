@@ -1,0 +1,233 @@
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: linear-gradient(to right,rgb(231, 135, 151) 0%,rgb(86, 86, 242) 100%);
+    }
+
+    .cerceve {
+        background:#cccccc;
+        max-width: 400px;
+        width: 31.25rem;
+        padding: 25px 30px;
+        border-radius: 5px;
+        position: relative;
+        
+    }
+
+
+    .cerceve .logo img{
+       position: absolute;
+       width: 90px;
+       height: 90px;
+       left: 70%;
+       top: 5px;
+       border-radius: 50%;
+       
+    }
+    .cerceve form .login::before{
+        content: '';
+        position:absolute;
+        height: 4px;
+        width: 35px;
+        bottom: 2px;
+        left: 0;
+        border-radius: 5px;
+        background:red;
+    }
+
+    .cerceve form .underline:after{
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 100%;
+        left: 0; 
+        bottom: 0;
+        background: red;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: all .3s ease;
+    }
+    .iccerceve>*{
+
+        width: 27rem;
+        
+        }
+        
+        .sonüçbuton>*{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            width: 27rem;
+            height: 4rem;
+            border-radius: 8px;
+            font-size: 1.5rem
+            
+            
+            
+        }
+        
+        
+        
+        .login {
+            position: absolute;
+            padding-top: 3rem;
+            font-size: 3.5rem;
+            margin-top: 1rem;
+            
+            
+        }
+        u{
+            text-decoration-color: aqua;
+        }
+        
+        
+        
+        .logo{
+            display: inline-block;
+            width: 8rem;
+            height: 8rem;
+            margin-left: 19rem;
+            margin-top: 1rem;
+            border: 5px solid lightgreen;
+            border-radius: 100%;
+           
+        }
+        
+        
+        input{
+            border: none;
+            border-bottom: 5px solid grey;
+            padding: 5px;
+            font-size:1.4rem;
+            margin-top: 3rem;
+            background-color: transparent;
+            transition: border-bottom-color 1.5s;
+        
+        }
+        input:focus{
+            outline: none;
+            border-bottom-color: red;
+        
+        }
+        
+        
+        
+        button.giris{
+            margin-top: 2rem;
+            background-color: crimson;
+            font-size: 2rem;
+            color: white;
+            border: none;
+            text-align: center;
+            border-radius: 7px;
+            height: 5rem;
+        
+        
+        
+        
+        
+        
+        }
+        button:hover{
+            transition: background-color 1.5s;
+            transition: color 1.2s;
+            background-color: lightgray;
+            color: crimson;
+        
+        
+        
+        }
+        
+        
+        p.yazi{
+            display: inline-block;
+            font-size: 1.3rem;
+            margin-top: 1.7rem;
+            text-align: center;
+            height: 2rem;
+        
+        
+        
+        }
+        
+        
+        
+        a.bir{
+            background-color: rgb(67, 67, 67);
+            color: white;
+            border: none;
+        
+        
+        
+        }
+        
+        a.bir:hover{
+            background-color: rgb(123, 123, 123);
+        
+        
+        }
+        a.iki{
+            background-color: aqua;
+            color: white;
+            border: none;
+        
+        margin-top: 2rem;
+        }
+        
+        a.iki:hover{
+        background-color: aquamarine;
+        
+        }
+        a.üç{
+            margin-top: 2rem;
+            background-color: rgb(24, 105, 255);
+            color: white;
+            border: none;
+        }
+        
+        a.üç:hover{
+        background-color: rgb(68, 133, 255);
+        
+        }
+        
+        a.bir:hover{
+            background-color: rgb(123, 123, 123);
+        
+        
+        }
+        a.iki{
+            background-color: aqua;
+            color: white;
+            border: none;
+        
+        margin-top: 2rem;
+        }
+        
+        a.iki:hover{
+        background-color: aquamarine;
+        
+        }
+        a.üç{
+            margin-top: 2rem;
+            background-color: rgb(24, 105, 255);
+            color: white;
+            border: none;
+        }
+        a.üç:hover{
+            background-color: rgb(68, 133, 255);
+            
+            }
+            
+            i{
+                margin-left: 1rem;
+            
+            
+            }
+            
+            button:hover{
+            cursor: pointer;
+            
+            }        
+                         

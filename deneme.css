@@ -1,0 +1,96 @@
+.baslik1{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 20px;
+   
+}
+
+.baslik2{
+    display: inline-block;
+    color:rgb(62, 16, 105)
+}
+
+.div1{
+    background-color:darkseagreen;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.baslik3{
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+
+}
+
+
+
+.div2{
+    background-color: antiquewhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    width: 30%;
+    
+    
+}
+
+.ikinciDivBaslik{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+   
+}
+.ikinciDivparagraf{
+    display: inline-block;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    border:10px;
+    padding: 5px;
+    background-color:darkseagreen; 
+    display: inline-block;
+    
+}
+
+.link:hover{
+    background-color:cyan;
+}
+
+.div2 img{
+    display: inline-block;
+}
+
+.ok-buton {
+    position: relative; /* İçerik ile ok işareti arasında yer değiştirme yapmak için */
+    padding-right: 20px; /* Sağ taraftan boşluk bırakarak ok işaretini yerleştirme alanı oluşturur */
+}
+
+.ok-isareti {
+    position: absolute; /* İçerik içinde mutlak bir konumlandırma sağlar */
+    right: 5px; /* Sağdan 5 piksel içeride konumlandırır */
+    top: 50%; /* Dikeyde ortalar */
+    transform: translateY(-50%); /* Dikeyde tam olarak ortalar */
+    content: "→"; /* Ok işareti içeriği ve görünümü (Unicode karakteri ya da özelleştirilmiş bir simge kullanabilirsiniz) */
+}
+.ikon-yuvarlak {
+    width: 50px; /* İkona uygun bir genişlik belirleyin */
+    height: 50px; /* İkona uygun bir yükseklik belirleyin */
+    border-radius: 50%; /* Yuvarlak bir şekil oluşturmak için %50'lik bir border-radius kullanın */
+    background-color: #3498db; /* Dilediğiniz bir arkaplan rengi belirleyin */
+    text-align: center; /* İkonu ortalamak için gerekli */
+    line-height: 50px; /* İkonu ortalamak için gerekli */
+    color: #fff; /* İkon rengi */
+  }
+  
+

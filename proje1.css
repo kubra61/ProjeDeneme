@@ -1,0 +1,164 @@
+body {
+    background-image: linear-gradient(to right, pink, rgb(0, 166, 222));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.cerceve {
+    background-color: white;
+    width: 30rem;
+    height: 50rem;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.iccerceve{
+    background-color: chartreuse;
+    margin-left: 2rem;
+    width: 31.25rem;
+
+    height: 52rem;
+    background-color: transparent;
+
+    }
+.iccerceve>*{
+
+width: 27rem;
+
+}
+
+.sonüçbuton>*{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 27rem;
+    height: 4rem;
+    border-radius: 8px;
+    font-size: 1.5rem
+
+
+
+}
+
+
+
+.login {
+    position: absolute;
+    padding-top: 3rem;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+
+
+}
+
+u{
+    text-decoration-color: aqua;
+}
+
+
+
+.logo{
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    margin-left: 19rem;
+    margin-top: 1rem;
+    border: 5px solid lightgreen;
+    border-radius: 100%;
+
+}
+
+
+input{
+    border: none;
+    border-bottom: 5px solid grey;
+    padding: 5px;
+    font-size:1.4rem;
+    margin-top: 3rem;
+    background-color: transparent;
+    transition: border-bottom-color 1.5s;
+
+}
+
+
+
+input:focus{
+    outline: none;
+    border-bottom-color: red;
+
+}
+
+
+
+button.giris{
+    margin-top: 2rem;
+    background-color: crimson;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+    height: 5rem;
+}
+
+button:hover{
+        transition: background-color 1.5s;
+        transition: color 1.2s;
+        background-color: lightgray;
+        color: crimson;
+    }
+    
+    
+p.yazi{
+        display: inline-block;
+        font-size: 1.3rem;
+        margin-top: 1.7rem;
+        text-align: center;
+        height: 2rem;
+}
+
+.bir{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.bir:hover{
+    background-color: rgb(123, 124, 124);
+}
+
+.iki{
+    background-color:rgb(44, 197, 197);
+    color: white;
+    margin-bottom: 20px;
+    
+
+}
+
+.iki:hover{
+    background-color: rgb(123, 124, 124);
+}
+
+.üç{
+    background-color: blue;
+    color: white;
+    
+}
+
+.üç:hover{
+    background-color: rgb(123, 124, 124);
+}
+
+i{
+    margin-left: 20px;
+}
+
+

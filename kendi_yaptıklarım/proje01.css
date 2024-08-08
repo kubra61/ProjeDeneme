@@ -1,0 +1,366 @@
+
+.baslik1{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 20px;
+   
+}
+
+.baslik2{
+    display: inline-block;
+    color:rgb(62, 16, 105)
+}
+
+.div1{
+    background-color:darkseagreen;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.baslik3{
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+
+}
+
+
+
+.div2{
+    background-color: antiquewhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 350px;
+    
+    
+}
+
+.ikinciDivBaslik{
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    border:10px;
+    padding: 5px;
+    background-color:darkseagreen; 
+    
+}
+
+.link:hover{
+    background-color:cyan;
+}
+
+.div3{
+    display: inline-block;
+    margin-top: 60px;
+    position: absolute;
+    
+}
+
+.div3 img{
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.p1{
+    display: inline;
+}
+
+.p2{
+    display: inline;
+    margin-right: 80px;
+    margin-left: 200px;
+}
+
+.p3{
+    display: inline;
+    margin-left: 100px;
+    margin-right: 200px;
+    
+
+}
+
+.div4{
+    text-align: right;
+    margin-top: 6px;
+}
+
+.para1{
+    display: inline-block;
+}
+
+.para2{
+    display: inline-block;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.para3{
+    display: inline;
+   margin-right: 240px;
+}
+
+.div5{
+    text-align: right;
+}
+
+.div6{
+    background-color:#dfdfde;
+    
+     
+    
+}
+
+.div6 h1{  
+    padding-top: 8px;
+    text-align: center; 
+}
+
+.aciklama{
+    color: #81817e;
+    text-align: center; 
+    
+}
+
+.div6 i{
+    padding-top: 30px;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    text-align: center;
+}
+
+#cicek{
+    display: inline-block;
+   /* background-color: rgb(178, 216, 178); */
+   font-size: 30px;
+}
+
+#kutu{
+   display: inline-block;
+   font-size: 30px;
+}
+
+#telefon{
+   display: inline-block;
+   font-size: 30px; 
+     
+}
+
+
+
+.ikinciP{
+    display: inline-block;
+    color:black;
+    font-weight: bold; 
+    text-align: center; 
+    padding-left: 155px; 
+}
+
+.div6 b{
+    text-align: center;
+}
+
+.b2{
+    padding-left: 280px;
+    padding-right: 18rem;
+    
+}
+
+.yaziP1{
+    display: inline-block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+}
+
+.yaziP2{
+    display: inline-block;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.yaziP3{
+    display: inline-block;
+    word-wrap: break-word;
+    line-height: 2rem;
+}
+
+.div7{
+    margin-top: 60px;
+}
+
+.Kategoriler{
+    text-align: center;
+}
+
+.aciklama2{
+    text-align: center;
+}
+
+.div7 img{
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+.cicek1Resim{
+    margin-left: 55px;
+}
+
+.div7 h2{
+    display: inline-block;
+    margin-right: 16rem;
+}
+
+.h2Bir{
+    margin-left: 3.5rem;
+}
+
+.metin{
+    margin-top: -10px;
+    margin-left: 27.5rem;
+}
+
+.metin2{
+    margin-top: -15px;
+    margin-left: 27.5rem;
+}
+
+.buton{
+   margin-left: 40rem;
+   background-color:darkseagreen;
+   border: 1.5px solid rgb(47, 110, 47);
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+ .buton:hover{
+    background-color: cyan;
+ }
+
+
+.buton a{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: black;   
+} 
+
+.altdiv1{
+    
+    background-color:darkseagreen ;
+}
+
+.sonbaslik{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 20px;
+   
+}
+
+.ikon-yuvarlak {
+    display: inline-block;
+    margin-right: 10px;
+    width: 50px; /* İkona uygun bir genişlik belirleyin */
+    height: 50px; /* İkona uygun bir yükseklik belirleyin */
+    border-radius: 50%; /* Yuvarlak bir şekil oluşturmak için %50'lik bir border-radius kullanın */
+    border: 1px solid gray; /* Kenarlık (border) ekleyin ve rengini belirleyin */
+    text-align: center; /* İkonu ortalamak için gerekli */
+    line-height: 50px; /* İkonu ortalamak için gerekli */
+    color:gray; /* İkon rengi */
+    font-size: 30px; /* İkonun boyutunu ayarlayın */
+  }
+
+.ikon-yuvarlak2 {
+    display: inline-block;
+    margin-right: 10px;
+    width: 50px; /* İkona uygun bir genişlik belirleyin */
+    height: 50px; /* İkona uygun bir yükseklik belirleyin */
+    border-radius: 50%; /* Yuvarlak bir şekil oluşturmak için %50'lik bir border-radius kullanın */
+    border: 1px solid gray; /* Kenarlık (border) ekleyin ve rengini belirleyin */
+    text-align: center; /* İkonu ortalamak için gerekli */
+    line-height: 50px; /* İkonu ortalamak için gerekli */
+    color:gray; /* İkon rengi */
+    font-size: 30px; /* İkonun boyutunu ayarlayın */
+  }
+
+.ikon-yuvarlak2 a i{
+    color: #81817e;
+}
+
+.ikon-yuvarlak a i{
+    color: #81817e;
+}
+
+.ikon-yuvarlak3 {
+    display: inline-block;
+    margin-right: 10px;
+    width: 50px; /* İkona uygun bir genişlik belirleyin */
+    height: 50px; /* İkona uygun bir yükseklik belirleyin */
+    border-radius: 50%; /* Yuvarlak bir şekil oluşturmak için %50'lik bir border-radius kullanın */
+    border: 1px solid gray; /* Kenarlık (border) ekleyin ve rengini belirleyin */
+    text-align: center; /* İkonu ortalamak için gerekli */
+    line-height: 50px; /* İkonu ortalamak için gerekli */
+    color:gray; /* İkon rengi */
+    font-size: 30px; /* İkonun boyutunu ayarlayın */
+  }
+
+.ikon-yuvarlak4 {
+    display: inline-block;
+    width: 50px; /* İkona uygun bir genişlik belirleyin */
+    height: 50px; /* İkona uygun bir yükseklik belirleyin */
+    border-radius: 50%; /* Yuvarlak bir şekil oluşturmak için %50'lik bir border-radius kullanın */
+    border: 1px solid gray; /* Kenarlık (border) ekleyin ve rengini belirleyin */
+    text-align: center; /* İkonu ortalamak için gerekli */
+    line-height: 50px; /* İkonu ortalamak için gerekli */
+    color:gray; /* İkon rengi */
+    font-size: 30px; /* İkonun boyutunu ayarlayın */
+  }
+
+.ikon-yuvarlak3 a i{
+    color: #81817e;
+}
+
+.ikon-yuvarlak4 a i{
+    color: #81817e;
+}
+
+  
+  
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
